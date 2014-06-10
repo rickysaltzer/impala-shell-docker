@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Build the image
+docker build -t cloudera/impala-shell .
+
+# Run the impala shell
+docker run -i -t cloudera/impala-shell /bin/bash
