@@ -8,6 +8,11 @@ How To
 
 1. Have Docker
 
-2. Run
+2. Build the image
 
-    ./impala-shell
+
+    $ ./build.sh
+
+3. Run the shell
+
+    $ ./impala-shell [arguments]

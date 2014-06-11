@@ -5,4 +5,4 @@ RUN ["yum", "install", "-y", "http://archive-primary.cloudera.com/impala/redhat/
 
 
 # Default entrypoint is the impala-shell
-ENTRYPOINT impala-shell
+ENTRYPOINT ["impala-shell"]
